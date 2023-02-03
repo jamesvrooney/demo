@@ -1,0 +1,6 @@
+services:
+  james:
+    image: james-spring-boot-demo:v0.1
+    container_name: james-demo
+    ports:
+      - 6789:8080

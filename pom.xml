@@ -34,6 +34,9 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+				<configuration>
+					<imageName>james-spring-boot-demo:v0.1</imageName>
+				</configuration>
 			</plugin>
 		</plugins>
 	</build>

@@ -1,0 +1,4 @@
+
+docker.image:
+  name: james-demo
+  version: v0.1
