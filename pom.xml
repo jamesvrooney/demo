@@ -36,6 +36,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<configuration>
 					<imageName>james-spring-boot-demo:v0.1</imageName>
+<!--					<imageName>${spring-boot.build-image.imageName}</imageName>-->
 				</configuration>
 			</plugin>
 		</plugins>

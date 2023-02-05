@@ -1,4 +1,6 @@
 
+spring-boot.build-image.imageName: ${docker.image.name}:${docker.image.version}
+
 docker.image:
   name: james-demo
-  version: v0.1
+  version: v0.2
